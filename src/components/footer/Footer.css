@@ -1,0 +1,33 @@
+.footer_contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5px 0;
+  background-color: rgb(187, 182, 182);
+  p{
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: large;
+    font-family: fantasy;
+  }
+}
+
+/* convertido a css puro sin tailwind */
+.custom-container {
+  /* Estilos base (Móvil / px-2 py-0.5) */
+  background-color: blue; /* bg-cyan-300 */
+  color: white;            /* text-black */
+  overflow: hidden;          /* overflow-hidden */
+  display: flex;             /* Necesario para justify-center */
+  justify-content: center;   /* justify-center */
+  border-radius: 5px;     /* rounded-lg (8px) */
+  padding-left: 0.5rem;      /* px-2 */
+  padding-right: 0.5rem;
+  padding-top: 0.125rem;     /* py-0.5 */
+  padding-bottom: 0.125rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: fantasy;
+}
+
